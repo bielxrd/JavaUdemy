@@ -1,0 +1,16 @@
+DataHora Local { 
+LocalDate
+LocalDateTime
+}
+
+DataHora Global { 
+Instant
+}
+
+Duração {
+    Duration
+}
+ Outros {
+    ZoneID
+    ChronoUnit
+ }
