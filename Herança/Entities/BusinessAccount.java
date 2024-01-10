@@ -27,4 +27,10 @@ public class BusinessAccount extends Account {
         else System.out.println("Cannot make the loan");
     }
 
+    @Override
+    public void withdraw(double amount) {
+        super.withdraw(amount);
+        balance -= 2.0;
+    }
+
 }
