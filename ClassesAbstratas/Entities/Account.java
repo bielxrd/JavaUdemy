@@ -1,7 +1,15 @@
 package ClassesAbstratas.Entities;
 
 public abstract class Account {
+ // Pq utilizar classes abstratas?
 
+ /*
+ Uma forma de garantir heranca total, somente subclasses podem ser instanciadas, nao pode instanciar classes abstratas
+
+ Garante o Reuso
+
+ Polimorfismo: A superclasse generica nos permite tratar de forma facil e uniforme todos os tipos de conta, inclusive com polimorfismo
+  */
     private Integer number;
     private String holder;
     protected Double balance;

@@ -19,6 +19,8 @@ public class Program {
 
         double sum = 0.0;
 
+
+        // Exemplos de que torna mais facil de lidar todos os tipos de conta com uma super generica
         for (Account acc : lista) {
             sum += acc.getBalance();
         }
